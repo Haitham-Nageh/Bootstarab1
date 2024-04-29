@@ -1,0 +1,890 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start BootStrap</title>
+    <!--Normalize-->
+    <link rel="stylesheet" href="normalize.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--The Design-->
+    <link rel="stylesheet" href="boot.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.ico" type="image/icon type" />
+  </head>
+  <!--
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-dash"></i>
+    <i class="fa-solid fa-dash"></i>
+  -->
+  <body>
+    <!--Start Heading-->
+    <div class="header" id="header">
+      <div class="container">
+        <div class="links">
+        <a href="#land"  class="logo">Start BootStrap</a>
+        <ul class="menu-nav">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+        <div class="menu">
+         <h4> Menu</h4>
+            <div class="icon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+        
+        <ul class="main-nav">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <!--End  Heading-->
+    <!--Start Landing-->
+    <div class="land" id="land">
+      <img src="img/avataaars.svg" alt="" />
+      <h2>Start BootStrap</h2>
+      <div class="star">
+        <div class="befs"></div>
+        <div class="sicon"><i class="fa-solid fa-star"></i></div>
+        <div class="afts"></div>
+      </div>
+      <p>Graphic Artist - Web Designer - Illustrator</p>
+    </div>
+    <!--End Landing-->
+    <!--Start Portofolio-->
+    <div class="port" id="portfolio">
+      <h2>portofolio</h2>
+      <div class="star">
+        <div class="befs"></div>
+        <div class="sicon"><i class="fa-solid fa-star"></i></div>
+        <div class="afts"></div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="img/cabin.png" alt="" />
+          <div class="plus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="img/cake.png" alt="" />
+          <div class="plus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="img/circus.png" alt="" />
+          <div class="plus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="img/game.png" alt="" />
+          <div class="plus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="img/safe.png" alt="" />
+          <div class="plus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="img/submarine.png" alt="" />
+          <div class="plus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Portofolio-->
+    <!--Start About-->
+    <div class="about" id="about">
+      <h2>About</h2>
+      <div class="star">
+        <div class="befs"></div>
+        <div class="sicon"><i class="fa-solid fa-star"></i></div>
+        <div class="afts"></div>
+      </div>
+      <div class="text">
+        <div class="p1">
+          <p>
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            download includes the complete source files including HTML, CSS, and
+            JavaScript as well as optional SASS stylesheets for easy
+            customization.
+          </p>
+        </div>
+        <div class="p2">
+          <p>
+            You can create your own custom avatar for the masthead, change the
+            icon in the dividers, and add your email address to the contact form
+            to make it fully functional!
+          </p>
+        </div>
+      </div>
+      <div class="download" >
+        <i class="fa-solid fa-download"></i>
+        <a href="#">Free Download!</a>
+      </div>
+    </div>
+    <!--End About-->
+    <!--Start Contact-->
+    <div class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="star">
+        <div class="befs"></div>
+        <div class="sicon"><i class="fa-solid fa-star"></i></div>
+        <div class="afts"></div>
+      </div>
+      <div class="form">
+        <form action=""  >
+          <input
+            class="input"
+            type="text"
+            placeholder="Full Name"
+            name="name"
+            required
+          />
+          <input
+            class="input"
+            type="email"
+            placeholder="Email Address"
+            name="email"
+            required
+          />
+          <input
+            class="input"
+            type="text"
+            placeholder=" Phone Number"
+            name="mobile"
+            required
+          />
+          <textarea
+            class="input"
+            placeholder="Message"
+            name="message"
+          ></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+    <!--End Contact-->
+    <!--Start Sources-->
+    <div class="footer">
+      <div class="location">
+        <h3>LOCATION</h3>
+        <span>2215 John Daniel Drive</span>
+        <span>Clark, MO 65243</span>
+      </div>
+      <div class="around">
+        <h3>AROUND THE WEB</h3>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+      <div class="remark">
+        <h3>ABOUT FREELANCER</h3>
+        <p>
+          Freelance is a free to use, MIT licensed Bootstrap theme created by
+          <a href="#">Start Bootstrap</a>
+        </p>
+      </div>
+    </div>
+    <div class="copyright">Copyright © Your Website 2023</div>
+    <!--End Sources-->
+  </body>
+</html>
+
+
+
+CSS
+
+
+
+/*Start Variables*/
+:root {
+    --main-color: #10cab7;
+   --background-color: #1abc9c;
+    --secondary-color: #2c3e50;
+    --section-padding: 60px;
+    --main-duration: 0.3s
+}
+
+/*End Variabls*/
+/*Start Global Rules*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*End Global Rules*/
+.header {
+    background-color: var(--secondary-color);
+    text-transform: uppercase;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: fit-content;
+ padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .container {
+   
+}
+
+
+.header .container .logo{
+    color: white;
+    margin-left: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;;
+    font-weight: bold;
+    transition: var(--main-duration);
+position: relative;
+
+}
+.header .container .logo:hover{
+    color: var(--main-color);
+}
+.main-nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+.main-nav li{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.main-nav li a{
+    color: white;
+    display: block;
+    padding: 15px;
+    transition: var(--main-duration);
+    font-weight: bold;
+}
+.main-nav li a:hover{
+    color: var(--main-color);
+}
+.header .menu{
+    width: 80px;
+    height: 40px;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    position: relative;
+    color: white; 
+    display: none;
+
+}
+.header .links .menu-nav{
+    display: none;
+}
+.header h4{
+    left: -5px;
+    font-size: 12px;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon {
+   position: relative;
+   top: 15px;
+
+   
+}
+.icon i{
+    font-size: 15px;
+    padding: 2px;
+   
+}
+
+@media(max-width:991px) {
+    .header .container {
+        display: flex;
+     
+    }
+    .header .menu{
+        display: flex;
+        justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    }
+    .main-nav{
+        display: none;
+    }
+   
+    .header .menu{
+        position: relative;
+       
+    }
+    .header .links{
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+    .header .menu:hover .menu-nav{
+        position: relative;
+        margin-top: 10px;
+        display: block;
+    }
+    .header .links .menu-nav li{
+        position: relative;
+        margin-top: 20px;
+    }
+    .header .links .menu-nav a{
+        text-decoration: none;
+        position: relative;
+        color: white;
+        margin-left: -20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;;
+    font-weight: bold;
+transition: var(--main-duration);
+    }
+    .header .links .menu-nav li a:hover{
+        color: var(--main-color);
+    }
+    
+    .header .container .logo{
+        font-size: 20px;
+    }
+    
+  
+
+}
+/*End  Heading*/
+/*Start Landing*/
+.land{
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   padding: 150px 70px 70px 70px;
+  
+
+}
+.land img{
+    width: 260px;
+}
+.land h2{
+    
+    font-size: 60px;
+    color: white;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.land p{
+    color: white;
+    position: relative;
+   font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -30px;
+}
+.land .befs{
+    position: relative;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -30px;
+    right: 82px;
+}
+.land .sicon{
+    color: white;
+    position:relative;
+   font-size: 30px;
+   top: -50px;
+   right: -48px;
+}
+.land .afts{
+    position: relative;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -70.5px;
+    left: 90px;
+}
+@media(max-width:761px){
+    .land h2{
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+}
+/*
+.star i{
+    color: white;
+    position:relative;
+   font-size: 30px;
+   top: -50px;
+ 
+}
+.star i::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: 50%;
+    right:50px;
+ 
+}
+.star i::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: 50%;
+    left: 50px;
+ 
+}
+*/
+/*End Landing*/
+/*Start Portofolio*/
+.port{
+  
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   padding: 40px;
+}
+.port h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+.port .star{
+  position: relative;
+  right: 10px;
+  top: 15px;
+}
+.port .befs{
+    position: relative;
+    background-color: var(--secondary-color);
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -30px;
+    right: 82px;
+}
+.port .sicon{
+    color: var(--secondary-color);
+    position:relative;
+   font-size: 30px;
+   top: -50px;
+   right: -48px;
+}
+.port .afts{
+    position: relative;
+    background-color: var(--secondary-color);
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -70.5px;
+    left: 90px;
+}
+.port .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+   gap: 30px;
+
+}
+.port img{
+    width: 100%;
+    max-width:100%;
+   border-radius: 10px;
+   position: relative;
+   display: block;
+}
+.port .container .image{
+    position: relative;
+}
+.port .container .image .plus{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+width: 100%;
+height: 100%;
+background-color:var(--main-color);
+opacity: 0;
+transition: var(--main-duration);
+
+}
+.port .container .image .plus i{
+    position: relative;
+    color: white;
+    font-size: 50px;
+ transition: 1s;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50% , -50%);
+
+}
+.port .container .image .plus:hover{
+ opacity: 0.8;
+}
+/*End Portofolio*/
+/*Start About*/
+.about{
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   padding: 80px;
+margin: 30px 0;
+}
+
+.about h2{
+    font-size: 50px;
+    color: white;
+    font-weight:bold;
+    position: relative;
+    top: -50px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about p{
+    color: white;
+    position: relative;
+   font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -30px;
+}
+.about .befs{
+    position: relative;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -60px;
+    right: 82px;
+}
+.about .sicon{
+    color: white;
+    position:relative;
+   font-size: 30px;
+   top: -80px;
+   right: -48px;
+}
+.about .afts{
+    position: relative;
+    background-color: white;
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -98.5px;
+    left: 90px;
+}
+.about .text{
+ top: -50px;
+   display: flex;
+   align-items: flex-start;
+  justify-content: center;
+}
+.about .text div{
+    width: 28%;
+    margin-left: 30px;
+    margin-right: 10px;
+   text-align:start;
+
+}
+.about .text .p2{
+    text-align: justify;
+}
+.about .text div p{
+    font-size: 20px;
+font-weight: 300;
+
+letter-spacing: 0.1px;
+}
+.about .download {
+    padding: 20px 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.about .download i{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: -2px;
+}
+.about .download a{
+text-decoration: none;
+    color: white;
+    font-size: 20px;
+    top: 1px;
+    position: relative;
+}
+.about .download:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.about .download:hover i{
+    color: black;
+}
+.about .download:hover a{
+    color: black;
+}
+@media(max-width:761px){
+    .about .text div{
+        width: 40%;
+    }
+}
+/*End About*/
+/*Start Conatact*/
+.contact{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   padding: 80px;
+margin: 30px 0;
+
+}
+.contact h2{
+
+    font-size: 50px;
+    color: var(--secondary-color);
+    font-weight:bold;
+    position: relative;
+    top: -50px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .befs{
+    position: relative;
+    background-color: var(--secondary-color);
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -60px;
+    right: 82px;
+}
+.contact .sicon{
+    color: var(--secondary-color);
+    position:relative;
+   font-size: 30px;
+   top: -80px;
+   right: -48px;
+}
+.contact .afts{
+    position: relative;
+    background-color: var(--secondary-color);
+    width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    top: -98.5px;
+    left: 90px;
+}
+.contact .form .input:not(:last-child){
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+   padding: 30px 200px;
+   margin-left: -90px;
+   */
+   display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 30px 220px;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    caret-color: var(--main-color);
+}
+.contact .form .input:focus{
+    outline: none;
+    border-bottom-color:var(--main-color) ;
+    
+    
+}
+.contact .form textarea{
+   height: 120px;
+  
+}
+.contact .form .input::placeholder{
+    position: relative;
+    left: -220px;
+    font-size:25px;
+    font-weight: 500;
+    
+}
+.contact .form textarea::placeholder{
+    position: relative;
+    left: 20px;
+    top: -10px;
+   
+}
+.contact .form [type="submit"]{
+background-color: #6ad3bf;
+border: none;
+color: white;
+padding: 20px 30px;
+border-radius: 5px;
+font-weight: 500;
+font-size: 20px;
+
+}
+@media(max-width:875px){
+.contact h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.contact .form .input::placeholder{
+    font-size:15px;
+    font-weight: 300;
+    
+}
+}
+/*End Conatact*/
+/*Start Footer*/
+.footer{
+    /*
+display: flex;
+    align-items: flex-start;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   */
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+   gap: 90px;
+background-color: var(--secondary-color);
+color: white;
+padding: 60px 80px;
+}
+.footer .location{
+    display: flex;
+    align-items: center;
+   
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+.footer h3{
+    font-size: 25px;
+
+}
+.footer .around{display: flex;
+    align-items: center;
+   
+   flex-wrap: wrap;
+   flex-direction: column;}
+.footer .remark{
+    display: flex;
+    align-items: center;
+  
+   flex-wrap: wrap;
+   flex-direction: column;    
+}
+
+.location span{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.footer .around .icons{
+    display: flex;
+    gap: 15px;
+}
+.footer .around .icons i{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 50%;
+}
+.footer .around .icons i:hover{
+    background-color: white;
+    color: #1f2c38;
+  cursor: pointer;
+}
+.footer .remark{
+  
+}
+.footer .remark p{
+    margin: 0;
+    font-size: 19px;
+ 
+}
+.footer .remark a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.copyright{
+    background-color: #1f2c38;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   color: white;
+   padding: 30px;
+}
+/*End Footer*/
